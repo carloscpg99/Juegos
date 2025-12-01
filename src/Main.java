@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+import javax.swing.*;
 public class Main{
     public static void main(String[] args){
         int opcion=0;
@@ -16,8 +16,8 @@ public class Main{
             opcion = leer.nextInt();
 
             switch(opcion){
-                case 1: System.out.println(" Has elegido: Triqui");
-
+                case 1:
+                    new Triqui.TriquiGUI();
                     break;
                 case 2: System.out.println(" Has elegido: Parejas");
 
