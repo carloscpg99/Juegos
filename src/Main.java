@@ -25,8 +25,8 @@ public class Main{
                 case 3:
                     new Ahorcado.AhorcadoGUI();
                     break;
-                case 4: System.out.println(" Has elegido: Calculadora");
-
+                case 4:
+                    new  Calculadora.CalculadoraGUI();
                     break;
 
             }
