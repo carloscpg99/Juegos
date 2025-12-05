@@ -22,14 +22,14 @@ public class Main{
                 case 1:
                     new Triqui.TriquiGUI();
                     break;
-                case 2: System.out.println(" Has elegido: Parejas");
+                case 2:
                     new ParejasGUI().setVisible(true);
                     break;
                 case 3:
                     new Ahorcado.AhorcadoGUI();
                     break;
-                case 4: System.out.println(" Has elegido: Calculadora");
-
+                case 4:
+                    new Calculadora.CalculadoraGUI();
                     break;
 
             }
