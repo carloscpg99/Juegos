@@ -1,7 +1,10 @@
+
+import Parejas.ParejasGUI;
 import java.util.Scanner;
 import javax.swing.*;
 public class Main{
     public static void main(String[] args){
+
         int opcion=0;
         Scanner leer = new Scanner(System.in);
 
@@ -20,7 +23,7 @@ public class Main{
                     new Triqui.TriquiGUI();
                     break;
                 case 2: System.out.println(" Has elegido: Parejas");
-
+                    new ParejasGUI().setVisible(true);
                     break;
                 case 3:
                     new Ahorcado.AhorcadoGUI();
@@ -33,4 +36,6 @@ public class Main{
         }while(opcion != 5);
         System.out.println("Hasta luego");
     }
+
+
 }
